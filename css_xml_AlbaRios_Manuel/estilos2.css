@@ -1,0 +1,29 @@
+nombre, apellido {
+    color: rgb(7, 6, 7);
+    display: list-item;        
+    margin-left: 20px;
+    border: rgb(27, 5, 194) 5px solid;
+    background-color: rgb(14, 242, 219);
+    }
+
+pedido {
+    display: list-item;   
+    color: azure;
+    font-family: 'Kanit', sans-serif;
+    font-size: x-large;
+    background-color: rgb(84, 84, 211);   
+    margin-left: 100px;
+    margin-right: 1440px;
+    margin-top: 250px;
+    
+    }
+    
+    descripcion, cantidad, precio {
+        display: list-item;
+        color: rgb(8, 8, 8);
+        margin-left: 20px;
+        border: rgb(27, 5, 194) 5px solid;
+    background-color: rgb(14, 242, 219);
+    }
+
+    

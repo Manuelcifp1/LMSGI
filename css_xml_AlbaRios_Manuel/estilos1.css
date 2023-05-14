@@ -1,0 +1,30 @@
+nombre, apellido {
+    color: blue;
+    display: table-cell;
+    margin-left: 20px;
+    border: rgb(207, 5, 5) 5px solid;
+    background-color: rgb(250, 250, 248);
+    }
+
+pedido {
+    display: table;
+    color: rgb(10, 6, 247);
+    font-family: 'Kanit', sans-serif;
+    font-size: x-large;
+    background-color: blue;   
+    margin-left: 100px;
+    margin-right: 1160px;
+    margin-top: 250px;
+    border-spacing: 5px;
+    border: rgb(247, 9, 9) 5px solid;
+    }
+    cliente, articulos, total {
+    display: table-cell;
+    background-color: rgb(250, 250, 248);
+    }
+    descripcion, cantidad, precio {
+    border: rgb(241, 7, 7) 5px solid;
+    display: table-cell;
+    }
+
+    
