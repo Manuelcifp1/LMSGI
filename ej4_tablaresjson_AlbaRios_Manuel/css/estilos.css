@@ -1,0 +1,96 @@
+:root {
+    --color-primario: rgb(219, 0, 0);
+    --color-secundario: hsl(239, 94%, 49%);
+    --color-fondo: rgb(252, 252, 252);
+}
+
+@font-face {
+    font-family: Badaboom;
+    src: url(../fonts/BADABB__.TTF);
+    font-weight: normal;
+}
+
+* {
+    font-family: Badaboom, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body {
+    margin: 0 auto;
+    font-family: Badaboom, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px var(--color-secundario);
+}
+/* Estilos de la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 475px;
+    margin: 0 auto;
+    font-size: 14pt;
+    color: var(--color-secundario);
+    background-color: var(--color-fondo);
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px var(--color-secundario);
+}
+
+th {
+    background-color: var(--color-primario);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+td:first-child {
+    background: var(--color-primario);
+    width: 120px; 
+    color: white;
+}
+
+td {
+    border: 1px solid var(--color-primario);
+    padding: 10px;
+}
+
+/* Estilos de la imagen */
+img {
+    box-shadow: 0px 0px 10px var(--color-primario);
+}
+
+.marvel_logo {
+    background-image: url("../img/portadas.jpg");
+    background-repeat: repeat;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=submit] {
+    margin-top: 25vh;
+    padding: 15px;
+    font-size: 18pt;
+    border: none;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px var(--color-secundario);
+}
+
+input[type=submit]:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    box-shadow: 0px 0px 10px var(--color-primario);
+
+}

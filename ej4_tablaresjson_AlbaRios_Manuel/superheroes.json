@@ -1,0 +1,29 @@
+{
+    "superheroes": [
+      {
+        "nombre": "Iron Man",
+        "alter ego": "Tony Stark",
+        "grupo": "Vengadores",
+        "imagen": "https://static.wikia.nocookie.net/disney/images/9/96/Iron-Man-AOU-Render.png/revision/latest/scale-to-width-down/1200?cb=20180410032118&path-prefix=es"
+      },
+      {
+        "nombre": "Capitán América",
+        "alter ego": "Steve Rogers",
+        "grupo": "Vengadores",
+        "imagen": "https://static.wikia.nocookie.net/disney/images/f/fa/Captain-America-AOU-Render.png/revision/latest?cb=20180420015558&path-prefix=es"
+      },
+      {
+        "nombre": "Wolverine",
+        "alter ego": "Logan",
+        "grupo": "X-Men",
+        "imagen": "https://static.wikia.nocookie.net/deathbattlefanon/images/d/dc/Marvel_Comics_Wolverine_%28Render%29.png/revision/latest?cb=20200723010953"
+      },
+      {
+        "nombre": "The Thing",
+        "alter ego": "Benjamín J. Grimm",
+        "grupo": "Los 4 Fantásticos",
+        "imagen": "https://static.wikia.nocookie.net/character-level/images/8/82/The_thing_render_by_bobhertley-d5roo6y.png/revision/latest?cb=20190703234608"
+      }
+    ]
+  }
+  

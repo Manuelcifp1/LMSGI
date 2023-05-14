@@ -1,0 +1,193 @@
+/* Establece el modelo de caja para todos los elementos, establece los
+ márgenes y el relleno en 0 */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+html {
+  /* Establece la familia de fuentes */
+  /* Establece el peso de la fuente */  
+  font-family: batmfa, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: yellow;
+  font-weight:normal; 
+  
+}
+
+h1 {
+    margin-bottom: 100px;    
+}
+
+@font-face {
+    font-family: 'batmfa';
+    src: url('fonts/batmfa__.ttf');           
+    
+}
+
+.container {
+  /* Centra el contenedor usando margenes */ 
+  /* Alinea el texto al centro */
+  background-color: midnightblue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+article {
+  /* Establece el margen inferior para los artículos */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 20px;
+}
+
+/* Establece las propiedades para una imagen que se puede ajustar según
+ su ancho o alto máximo, centrada en la página */
+.target {
+  /* Mostrar como etiqueta de bloque*/
+  display: block;
+  /* Ancho máximo de 50% */
+  max-width: 100%;
+  /* Altura automática */
+  height: auto;
+  /* Centramos utilizando los margenes */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Establece las propiedades para una imagen que se puede ajustar según su
+ ancho o alto máximo, centrada en la página, con una máscara de imagen */
+.alpha-target {
+  /* Imagen de la máscara (navegadores webkit) */
+  /* Imagen de la máscara (otros navegadores) */
+  -webkit-mask-image: url(img/batman.png);
+  mask-image: url(img/batman.png);
+  /* No repetir la máscara (navegadores webkit) */
+  /* No repetir la máscara (otros navegadores) */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /* Tamaño de la máscara (navegadores webkit) al 80% */
+  /* Tamaño de la máscara (otros navegadores) al 80% */
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-size: 100%;
+  -webkit-mask-size: 100%;
+}
+
+/* Establece las propiedades para una imagen que se puede repetir horizontalmente en la página */
+.target-repeat {
+  /* Margen de 20px horizontalmente y vertical automático */
+  margin: auto 20px;
+  /* Mostrar como etiqueta de bloque */
+  display: block;
+  /* Ancho máximo al 100% */
+  max-width: 100%;
+  /* Altura de 600px */
+  height: 600px;
+  /* Imagen de la máscara para navegadores webkit */
+  /* Imagen de la máscara para otros navegadores */
+  -webkit-mask-image: url(img/batman.png);
+  mask-image: url(img/batman.png);
+  /* Repetir la máscara con espaciado (navegadores webkit) */
+  /* Repetir la máscara con espaciado (otros navegadores) */
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  /* Tamaño de la máscara para navegadores webkit 80px ancho y 80px  alto */
+  /* Tamaño de la máscara para otros navegadores 80px ancho y 80px alto */
+  -webkit-mask-size: 209px 209px;
+  mask-size: 209px;
+}
+
+/* Establece las propiedades para un contenedor, con borde, ancho y margen establecidos */
+.mask-container {
+  /* Borde de 5px, sólido y color #444 */
+  border: 5px solid #444;
+  /* Ancho al 80% */ 
+  /* Centrar contenedor utilizando los márgenes */
+  margin-left: auto;
+  margin-right: auto;
+  /* Reiniciar el padding */
+  padding: 0;
+}
+
+/* Establece las propiedades para una imagen que se puede ajustar según su ancho
+ o alto máximo, centrada en la página, con una máscara de imagen de gato en alfabeto
+  griego, posicionada en la parte superior o inferior */
+.mask-pos-target {
+  /* Mostrar como etiqueta de bloque */
+  display: block;
+  /* Ancho máximo al 100% */
+  max-width: 100%;
+  /* Altura automática */
+  height: auto;
+  /* Centramos utilizando los margenes */
+  margin-left: auto;
+  margin-right: auto;
+  /* Imagen de la máscara para navegadores webkit */
+  /* Imagen de la máscara para otros navegadores */
+  -webkit-mask-image: url(img/batman.png);
+  mask-image: url(img/batman.png);
+  /* No repetir la máscara (navegadores webkit) */
+  /* No repetir la máscara (otros navegadores) */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /* Tamaño de la máscara para navegadores webkit 40% */
+  /* Tamaño de la máscara para otros navegadores 40% */
+  mask-size: 60%;
+  -webkit-mask-size: 60%;
+}
+/* Establece la posición de la máscara en la parte superior del elemento (0,0) */
+.mask-pos-top .mask-pos-target {
+  /* Posición de la máscara para navegadores webkit*/
+  /* Posición de la máscara para otros navegadores */
+  -webkit-mask-position: 20,0;
+  mask-position: 20,0;
+}
+
+/* Establece la posición de la máscara en la parte inferior del elemento  */
+.mask-pos-bottom .mask-pos-target {
+  /* Posición de la máscara para navegadores webkit */
+  /* Posición de la máscara para otros navegadores */
+  -webkit-mask-position: right bottom;
+  mask-position: right bottom;
+}
+
+/* Establece la imagen de la máscara y su posición en el centro del elemento */
+.mask-size-target {
+  /* Imagen de la máscara para navegadores webkit */
+  /* Imagen de la máscara para otros navegadores */
+  -webkit-mask-image: url(img/batman.png);
+  mask-image: url(img/batman.png);
+  /* No repetir la máscara para navegadores webkit */
+  /* No repetir la máscara para otros navegadores */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /* Posición de la máscara para navegadores webkit en el centro vertical y horizontal */
+  /* Posición de la máscara para otros navegadores en el centro vertical y horizontal */
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* Establece el tamaño de la máscara al 50% del tamaño del elemento */
+.mask-size-half .mask-size-target {
+  /* Tamaño de la máscara para navegadores webkit 50% */
+  /* Tamaño de la máscara para otros navegadores 50% */
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  
+}
+
+/* Establece el tamaño de la máscara para que se ajuste al tamaño del elemento
+ (contain) */
+.mask-size-contain .mask-size-target {
+  /* Tamaño de la máscara para navegadores webkit */
+  /* Tamaño de la máscara para otros navegadores */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}

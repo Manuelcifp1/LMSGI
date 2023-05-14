@@ -1,0 +1,99 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'shanghai';
+    src: url('fonts/shanghai.ttf');         
+
+}
+
+header {
+    font-family: shanghai;
+    color: yellow;
+}
+
+body {
+    
+    background-image: url(/img/Captura\ de\ pantalla\ 2023-03-25\ 204638.jpg);
+    margin: 0 auto; 
+
+}
+
+h1 {    
+    font-size: 40pt;
+    text-align: center;
+    background-image: url(/img/Captura\ de\ pantalla\ 2023-03-25\ 204638.jpg);
+    margin-top: 100px;
+}
+
+.table-responsive {
+    font-size: 25pt;    
+    background-image: url(/img/gran\ fondo.jpg);
+    border: 10px solid darkgreen;
+    border-style: groove;    
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-responsive td, .table-responsive th {
+    padding: 10px;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5);
+}
+
+.table-responsive th {
+    font-family: shanghai;
+    color: yellow;
+    background-image: url(/img/Captura\ de\ pantalla\ 2023-03-25\ 204638.jpg);        
+    text-align: right;
+    font-weight: normal;
+}
+
+.table-responsive td {
+    text-align: right;
+}
+
+.table-container {
+    font-family: shanghai;
+    color: darkgreen;
+    overflow-x: auto;
+}
+
+.table-responsive {
+    min-width: 900px;
+}
+
+.table-responsive td:before {
+    content: "¥ ";
+        
+
+}
+
+.table-responsive td:after {
+    content: " ,00";
+}
+
+.table-responsive td:first-of-type {
+    text-align: left;
+}
+
+.table-responsive td:first-of-type::before {
+    content: "";
+}
+
+.table-responsive td:first-of-type::after {
+    content: "";
+}
+
+.table-responsive tr:hover {
+    background-image: url(/img/Captura\ de\ pantalla\ 2023-03-25\ 204638.jpg);
+    color: yellow;
+}
+
+.table-responsive tr:hover td:first-of-type {
+    background-image: url(/img/Captura\ de\ pantalla\ 2023-03-25\ 204638.jpg);
+    color: yellow;
+}
