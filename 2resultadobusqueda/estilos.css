@@ -1,0 +1,42 @@
+html {
+    font-family: 'Teko', sans-serif;
+    font-size: xx-large;
+    background-image: url(media/tech.jpg);
+    background-size: cover; 
+}
+
+h1 {
+    margin-left: 160pt;
+    color: lightblue;
+    background-color: rgba(21, 21, 91, 0.779);
+}
+caption {
+    color: lightblue;
+    font-size: 30pt;
+    background-color: rgba(21, 21, 91, 0.779);
+}
+
+.blanco {
+    background-color: white;
+}
+
+table {
+    margin-left: 160pt;
+    text-align: center;
+}
+
+td, th {
+    background-color: rgba(21, 21, 91, 0.779);
+    color: rgb(0, 166, 255);
+    padding: 20pt;
+    font-size: 30pt;
+}
+
+a {
+    color: lightblue;
+}
+
+p {
+    margin-left: 300pt;
+}
+

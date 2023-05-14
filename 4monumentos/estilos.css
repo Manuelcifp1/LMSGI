@@ -1,0 +1,95 @@
+html {
+    font-family: 'IM Fell English SC', serif;
+    background-image: url(media/unionjackpic.jpg);
+}
+
+
+h1 {
+    width: 639pt;
+    border: 10pt;
+    border-style: double;
+    border-color: red;    
+    background-color: rgb(27, 27, 116);
+    color: white;
+    text-align: left;
+    font-size: xx-large;    
+    padding: 2pt;
+    margin-left: 400pt;
+    margin-right: 300pt;
+    
+
+}
+
+hr {
+
+    color: white;
+    
+    
+}
+
+.linkscroll {
+    text-align: right;
+    font-size:medium;
+    padding: 2pt;
+    margin-right: 350pt;
+    
+    
+}
+
+.intro {
+    width: 639pt;
+    border: 10pt;
+    border-style: double;
+    border-color: red; 
+    background-color: rgb(27, 27, 116);
+    color: white;
+    text-align: justify;
+    font-size: large;
+    padding: 5pt;
+    margin-left: 400pt;
+    margin-right: 300pt;
+    
+}
+
+
+
+div {
+    width: 850px;
+    height: 400px;
+    border: 10pt;
+    border-style: double;
+    border-color: red; 
+    background-color: rgb(27, 27, 116);
+    color: white;
+    text-align: justify;
+    font-size: large;
+    padding: 5pt;
+    margin-left: 400pt;
+    margin-right: 400pt;
+}
+
+.imag1 {
+    height: 270px;
+    float: right;
+    border: 2px red solid;
+    padding: 2px;
+    margin: 10px;
+}
+
+.imag2 {
+    height: 270px;
+    float: left;
+    border: 2px red solid;
+    padding: 2px;
+    margin: 10px;  
+}
+
+.imag3 {
+    height: 270px;
+    float: right;
+    border: 2px red solid;
+    padding: 2px;
+    margin: 10px;
+}
+
+

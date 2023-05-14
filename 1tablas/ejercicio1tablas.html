@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tablas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    </style>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); 
+    </style>      
+        <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <div id="contenedor">
+        <div id="principal">    
+        <table class="primera" border="!">  
+            <caption style= "font-size: 20pt;">Tabla con combinación de filas</caption>        
+                <tr>
+                    <th colspan="2">Celda 1</th>
+                    <th>Celda 2</th>
+                    <th colspan="2">Celda 3</th>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">Celda Combinada</td>
+                    <td>Celda 5</td>
+                    <td colspan="2" rowspan="2">Celda Combinada</td>
+                </tr>
+                <tr>
+                    <td>Celda 7</td>
+                </tr>         
+        </table>
+        <br>
+        <table class="segunda" border="!">
+            <caption style= "font-size: 20pt;"><b>Tabla con combinación de filas y columnas</b></caption>
+                <tr>
+                    <th>celda 1</th>
+                    <th>celda 2</th>
+                    <th>celda 3</th>
+                    <th>celda 4</th>
+            </tr>
+            <tr>
+                    <td rowspan="3">celda 5</td>
+                    <td>celda 6</td>
+                    <td colspan="2">celda 7</td>
+            </tr>
+            <tr>
+                    <td>celda 8</td>
+                    <td>celda 9</td>
+                    <td rowspan="2">celda 10</td>
+            </tr>
+            <tr>
+                    <td colspan="2">celda 11</td>
+            </tr>
+        </table>
+        </div>
+        <div id="sidebar">
+        <table class="tercera" border="!">
+            <caption style= "font-size: 20pt;"><b>Gasto doméstico Primer Semestre</b></caption>
+            <tr>
+                <th rowspan="2">Mes</th>
+                <th colspan="4">concepto</th>
+                <th rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <th>Corriente</th>
+                <th>Facturas</th>
+                <th>Coche</th>
+                <th>Casa</th>
+            </tr>            
+            <tr>
+                <td><b>Enero</b></td>
+                <td>-</td>
+                <td>---</td>
+                <td>----</td>
+                <td>----</td>
+                <td>----</td>
+            </tr>
+            <tr>
+                <td><b>Febrero</b></td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>----</td>
+            </tr>
+            <tr>
+                <td><b>Marzo</b></td>
+                <td>4</td>
+                <td>4</td>
+                <td>7</td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><b>Abril</b></td>
+                <td>5</td>
+                <td>7</td>
+                <td>6</td>
+                <td>2</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><b>Mayo</b></td>
+                <td>5</td>
+                <td>7</td>
+                <td>6</td>
+                <td>2</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><b>Junio</b></td>
+                <td>5</td>
+                <td>7</td>
+                <td>6</td>
+                <td>2</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td rowspan="2"><b>Totales</b></td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td><b>Corriente</b></td>
+                <td><b>Facturas</b></td>
+                <td><b>Coche</b></td>
+                <td><b>Casa</b></td>
+                <td><b>TOTAL</b></td>
+            </tr>            
+        </table>
+        </div>
+    </div>
+    <p>&#169;Manuel Alba | Todos los derechos reservados 05/12/2022</p>    
+</body>
+</html>    
+       

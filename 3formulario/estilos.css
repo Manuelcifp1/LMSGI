@@ -1,0 +1,89 @@
+html {
+    font-family: 'Chakra Petch', sans-serif;
+    background-image: url(media/fondototal.png);
+    background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header {
+    align-content: center;
+    margin-left: 480pt;
+    
+}
+h3 {
+    padding-left: 150pt;
+}
+
+nav {
+    color: yellow;
+    align-content: center;
+    margin-left: 480pt;
+    background-color: rgba(128, 0, 128);
+    margin-right: 590pt;
+    padding-left: 100pt;
+    border-radius: 10px;
+    
+}
+
+section {
+    color: yellow;
+    background-color: rgba(128, 0, 128);
+    align-content: center;
+    margin-left: 480pt;
+    margin-right: 590pt;
+    padding-left: 30pt;
+    border-radius: 10px;
+    padding-bottom: 10pt;
+    
+}
+
+footer {
+    color: yellow;
+    background-color: rgba(128, 0, 128);
+    align-content: center;
+    margin-left: 480pt;
+    margin-right: 590pt;
+    padding-left: 30pt;
+    border-radius: 10px;
+    text-align: center;
+}
+textarea {
+
+    color: purple;
+    font-size: large;
+    width: 85%;
+    height: 200px;
+    padding-left: 25pt;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(83, 205, 200);
+    resize: none;  
+    scroll-margin-left: 5pt;
+    }
+
+    
+    input {
+        font-size: large;
+        background-color: rgb(83, 205, 200);
+        color: purple;  
+    }
+
+    button {
+
+        width: 90px;
+        height: 40px;        
+        background-color: rgb(16, 146, 156);
+        border-radius: 10px;     
+                   
+    }
+
+    select {
+        width: 90px;
+        height: 40px;        
+        background-color: rgb(16, 146, 156);
+        border-radius: 10px;  
+    }
+
+    
+      

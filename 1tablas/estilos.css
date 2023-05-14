@@ -1,0 +1,89 @@
+caption {
+    color: lightgreen;
+    background-color: darkolivegreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: outset;
+}
+
+table  {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+          
+  }
+
+#principal {
+    width: 50%;
+    background-image:url(media/wood2.jpg);   
+    
+  }
+#sidebar {
+    width: 50%;
+    background-image:url(media/wood2.jpg);    
+        
+  }
+
+.primera {
+    border: 5pt;
+    font-family: 'Zen Dots', cursive;
+    margin-top: 40pt;
+    margin-left: 200pt;
+    border-color: rgba(85, 107, 47, 0.642); width: 100pt;
+    border-style: outset;
+    
+}     
+
+.segunda {
+    border: 7pt;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 260pt;
+    border-color: darkolivegreen;  width: 100pt;
+    border-style: outset;
+    
+}     
+
+.tercera {
+    border: 8pt;    
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    border-color: darkolivegreen;
+    border-style: outset;
+}
+     
+
+th {
+    padding: 20px;
+    font-size: 25pt;
+    text-align: center;
+    border-radius: 10px;
+    border-style: outset;
+    background-image: url(media/wood3.jpg);
+    color: lightgreen;
+    
+    
+}
+
+td {
+    padding: 20px;
+    font-size: 25pt;
+    text-align: center;
+    border-radius: 10px;
+    border-color: darkolivegreen;
+    border-style: outset;
+    background-image: url(media/wood4.jpg);
+    color: darkgreen;
+    
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap'); </style>    
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">    
+</head>
+<body>
+    <header> 
+        <img src="media/tuproducto.png" alt="tuproducto">             
+    </header>
+    <nav>
+        <h2>Información sobre el producto</h2>
+    </nav>
+    <section>    
+        <form>        
+            <h3>Datos básicos</h3><br>
+            <label for="nombre">Nombre</label><br>
+            <input size="50pt" id="nombre" name="nombre" type="text"><br><br>
+            <label for="descripcion">Descripción</label><br>
+            <textarea class="section" name="descripcion" rows="5" cols="50"></textarea><br><br>
+            <label for="foto">Foto</label>
+            <input size="30pt" id="foto" name="foto" type="text">
+            <button type="button">Elegir...</button><br><br>
+            <input name="caja" type="checkbox">Añadir contador de visitas            
+        
+            <h3>Datos económicos</h3><br>
+            <label>Precio</label>
+            <input id="precio" name="precio" type="text">&nbsp;€ &nbsp;&nbsp;&nbsp;
+            <label for="tax">Impuestos</label>
+            <select name="impuestos">
+                <option value="4%">4%</option>
+                <option value="7%">7%</option>
+                <option value="16%">16%</option>
+                <option value="25%">25%</option>
+            </select><br>
+            <br>
+            <label>Promoción</label><br>
+            <input name="promoción" type="radio">Ninguno<br>
+            <input name="promoción" type="radio">Transporte gratuito<br>
+            <input name="promoción" type="radio">Descuento 5%
+        </form>
+    </section>
+    <footer>
+       <p>&#169;Manuel Alba | Todos los derechos reservados 05/12/2022</p>
+    </footer>    
+</body>
+</html>
